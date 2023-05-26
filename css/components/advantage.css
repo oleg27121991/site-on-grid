@@ -1,0 +1,57 @@
+.advantage__container {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.advantage__top {
+    margin-bottom: 23px;
+}
+
+.advantage__top--item {
+    padding-left: 190px;
+}
+
+.advantage__img {
+    min-height: 140px;
+    background-image: url(../../img/advantage-img.png);
+    background-position: 0 44%;
+    background-size: 160px 140px;
+    background-repeat: no-repeat;
+}
+
+.advantage__title {
+    max-width: 50%;
+    margin-bottom: 17px;
+}
+
+.advantage__descr {
+    max-width: 66%;
+}
+
+.advantage__item {
+    align-items: center;
+    min-height: 80px;
+    padding-left: 110px;
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: 80px 80px; 
+}
+
+.advantage__item--1 {
+    background-image: url(../../img/advantage-1.png);
+}
+
+.advantage__item--2 {
+    background-image: url(../../img/advantage-2.png);
+}
+
+.advantage__item--3 {
+    background-image: url(../../img/advantage-3.png);
+}
+
+.advantage__caption {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 120%;
+    color: var(--cards-color);
+}

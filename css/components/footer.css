@@ -1,0 +1,31 @@
+.footer__top {
+    padding-top: 28px;
+    padding-bottom: 25px;
+    background-color: var(--footer-color);
+}
+
+.social {
+    align-items: center;
+    justify-content: center;
+}
+
+.social__item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.footer__bottom {
+    padding: 3px 0;
+}
+
+.footer__copy {
+    width: 100%;
+    text-align: center;
+    font-size: 13px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: var(--footer-color);
+}
+
+.footer__copy span {
+    color: var(--btn-default-color);
+}

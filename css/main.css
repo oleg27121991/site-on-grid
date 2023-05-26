@@ -1,0 +1,75 @@
+@import 'variables.css';
+@import 'fonts.css';
+
+
+@import 'components/header.css';
+@import 'components/hero.css';
+@import 'components/advantage.css';
+@import 'components/mentors.css';
+@import 'components/courses.css';
+@import 'components/footer.css';
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    min-width: 320px;
+    font-family: "Roboto", sans-serif;
+    background-color: var(--white);
+}
+
+.list-reset {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.link {
+    display: inline-block;
+    padding: 24px 76px;
+    background: var(--btn-default-color);
+    border-radius: 20px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: var(--white);
+}
+
+.title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 100%;
+    color: var(--footer-color);
+}
+
+.descr {
+    font-size: 16px;
+    line-height: 150%;
+    color: var(--cards-color);
+}
+
+.stop-scroll {
+     overflow: hidden;
+   
+}

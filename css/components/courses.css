@@ -1,0 +1,72 @@
+.courses {
+    padding-top: 74px;
+    padding-bottom: 81px;
+}
+
+.courses__title {
+    margin-bottom: 23px;
+}
+
+.courses__items {
+    margin-bottom: 31px;
+}
+
+.courses__items:not(:nth-child(-n+2)) {
+    margin-bottom: 0;
+}
+
+.courses__item {
+    height: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    overflow: hidden;
+    background-color: var(--background-cards-color);
+}
+
+.courses__time {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 10px;
+    right: 4px;   
+}
+
+.courses__time--descr {
+    margin-left: 5px;
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--white);
+}
+
+.courses__subtitle {
+    margin-left: 30px;
+    margin-top: 27px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    color: var(--mentor-color);
+}
+
+.courses__descr {
+    max-width: 89%;
+    margin-left: 30px;
+    margin-top: 7px;
+    margin-bottom: 49px;
+}
+
+.courses__link {
+    width: fit-content;
+    margin-top: auto;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    display: inline-block;
+    padding: 20px 60px;
+    background: var(--btn-default-color);
+    border-radius: 20px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--white);
+}

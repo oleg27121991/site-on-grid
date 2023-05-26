@@ -1,0 +1,35 @@
+.hero {
+    background: radial-gradient(44.07% 44.07% at 67.78% 55.93%, #555681 0%, #212133 100%);
+}
+
+.hero__container {
+    padding-top: 15px;
+    padding-bottom: 9px;
+}
+
+.hero__content {
+    padding-top: 117px;
+}
+
+.hero__title {
+    margin-bottom: 27px;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 100%;
+    color: var(--white);
+}
+
+.hero__descr{
+    margin-bottom: 62px;
+    font-size: 18px;
+    line-height: 150%;
+    color: var(--white);
+}
+
+.hero__picture {
+    min-height: 597px;
+    background-image: url(../../img/hero_img.png);
+    background-position: 44% -2%;
+    background-repeat: no-repeat;
+    background-size: 633px 593px;
+}

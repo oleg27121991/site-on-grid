@@ -1,0 +1,33 @@
+.mentors {
+    padding: 74px 0;
+    background-color: var(--mentor-color);
+}
+
+.mentors__title {
+    margin-bottom: 24px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 100%;
+    color: var(--white);
+}
+
+.mentors__item {
+    border-radius: 20px 20px 0 0;
+    overflow: hidden;
+}
+
+.mentors__image {
+    margin-bottom: 27px;
+}
+
+.mentors__name {
+    margin-bottom: 7px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    color: var(--white);
+}
+
+.mentors__descr {
+    max-width: 99%;
+}
